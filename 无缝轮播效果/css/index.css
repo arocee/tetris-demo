@@ -1,0 +1,107 @@
+html {
+	height: 100%;
+	width: 100%;
+	-webkit-text-size-adjust:100%;
+}
+html * {
+	-webkit-text-size-adjust:none;
+}
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;
+	color: #000;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dd, p, figure, pre {
+	margin: 0;
+}
+fieldset, input, button, option, textarea, th, td {
+	padding: 0;
+	outline: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul, ol, legend, figcaption {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	border: none;
+}
+input, textarea {
+	outline: none;
+}
+textarea {
+	resize: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing:0
+}
+i {
+	font-style: normal;
+}
+.banner, .principle {
+	position: absolute;
+	left: 400px;
+	width: 100px;
+	height: 50px;
+}
+.banner {
+	top: 10px;
+	overflow: hidden;
+}
+.principle {
+	top: 180px;
+}
+.banner ul, .principle ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 400%;
+}
+.banner li, .principle li {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 25%;
+}
+.b0, .p0, .pr0 {
+	background: red;
+}
+.b1, .p1, .pr1 {
+	background: green;
+}
+.b2, .p2, .pr2 {
+	background: blue;
+}
+.b3, .p3, .pr3 {
+	background: yellow;
+}
+.pager {
+	position: absolute;
+	top: 120px;
+	left: 200px;
+}
+.pager li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	float: left;
+	margin: 10px 20px;
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+.pager li.cur {
+	border: 2px solid #000;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
